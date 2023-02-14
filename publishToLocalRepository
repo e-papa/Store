@@ -1,0 +1,2 @@
+mkdir -p releases
+./gradlew clean -Dmaven.repo.local="$(pwd)/releases/" publishToMavenLocal
