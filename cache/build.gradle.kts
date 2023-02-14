@@ -88,7 +88,6 @@ tasks.withType<DokkaTask>().configureEach {
 
 mavenPublishing {
     publishToMavenCentral(S01)
-    signAllPublications()
 }
 
 addGithubPackagesRepository()
