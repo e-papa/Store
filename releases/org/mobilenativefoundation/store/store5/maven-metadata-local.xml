@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.mobilenativefoundation.store</groupId>
+  <artifactId>store5</artifactId>
+  <versioning>
+    <latest>5.0.0-SNAPSHOT-zest</latest>
+    <release>5.0.0-SNAPSHOT-zest</release>
+    <versions>
+      <version>5.0.0-SNAPSHOT-zest</version>
+    </versions>
+    <lastUpdated>20230214142000</lastUpdated>
+  </versioning>
+</metadata>

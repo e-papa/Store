@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../cache5/5.0.0-SNAPSHOT-zest/cache5-5.0.0-SNAPSHOT-zest.module",
+    "group": "org.mobilenativefoundation.store",
+    "module": "cache5",
+    "version": "5.0.0-SNAPSHOT-zest",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cache.klib",
+          "url": "cache5-iossimulatorarm64-5.0.0-SNAPSHOT-zest.klib",
+          "size": 82439,
+          "sha512": "f39cfdaa8871eda93e752f7cf1954343f9b1a277048071a26ccce21874b960905bc4ac6da493d3b189e4baa40bcde2da9509f01745770a95b9eb8ac44dc2e36e",
+          "sha256": "e5cd0f8c247e30ddfd099e395d4062830351a6dc51d31fc44a3e516ae7bbb761",
+          "sha1": "df148ddba84d4b02770fd99de5451aeb96fa33cb",
+          "md5": "00b2c22d7dc606d7c0a844814bc09356"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cache-iossimulatorarm64-5.0.0-SNAPSHOT-zest-metadata.jar",
+          "url": "cache5-iossimulatorarm64-5.0.0-SNAPSHOT-zest-metadata.jar",
+          "size": 261,
+          "sha512": "becff474f63decc59cdfe850e02356e729c5ff4c154619b4843a7aab1fcbd494b4bd285becd3b91ab30893b612404b010a55df647ba47adab6bd608913cbb81b",
+          "sha256": "db0102f2d69008c8e2bcd21de88d3f86f21ca868a564bad561e7331efa5db9aa",
+          "sha1": "bbda9c04eddcea821c9f93801eda29d99ba79834",
+          "md5": "54aaefac2549790b54947ac7aedb014f"
+        }
+      ]
+    }
+  ]
+}

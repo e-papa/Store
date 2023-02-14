@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../multicast5/5.0.0-SNAPSHOT-zest/multicast5-5.0.0-SNAPSHOT-zest.module",
+    "group": "org.mobilenativefoundation.store",
+    "module": "multicast5",
+    "version": "5.0.0-SNAPSHOT-zest",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multicast.klib",
+          "url": "multicast5-iossimulatorarm64-5.0.0-SNAPSHOT-zest.klib",
+          "size": 36029,
+          "sha512": "4ee29097649460cdf83dd5a0db52e8e5c17447b9c5269d6cb9dd010a1bba32e900336823c004692bfdebd185a607c67abc265e943ab14eca1e1fa2a2aa328459",
+          "sha256": "66d6336da2d56f55be0e944ba7290de82016fd2f35aaf468f3cf781b673537ac",
+          "sha1": "be7a8ce217668ce77257ffd35abb7e477a4613e3",
+          "md5": "760ebb4e936a1e2e7abaf3ec27725b41"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multicast-iossimulatorarm64-5.0.0-SNAPSHOT-zest-metadata.jar",
+          "url": "multicast5-iossimulatorarm64-5.0.0-SNAPSHOT-zest-metadata.jar",
+          "size": 261,
+          "sha512": "abb65bfc9d36a33083f0a361af2efce70a0a9aa9ed58ce238e6f95b0f34059706e70cc6b30914db7c0c36428c7f73dc3c79a7f2b1cb97afefed42952b10b6a2d",
+          "sha256": "3e795c58f5b584edb191cb0072a49e8a186a7228ecdbcbc19bbe9c72c7562687",
+          "sha1": "b2634372fb26df908dddf01d587285af85a6a430",
+          "md5": "fd7dd32c1aeaaa204a59518c73d5eb1c"
+        }
+      ]
+    }
+  ]
+}

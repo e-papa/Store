@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../cache5/5.0.0-SNAPSHOT-zest/cache5-5.0.0-SNAPSHOT-zest.module",
+    "group": "org.mobilenativefoundation.store",
+    "module": "cache5",
+    "version": "5.0.0-SNAPSHOT-zest",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cache-js-5.0.0-SNAPSHOT-zest.klib",
+          "url": "cache5-js-5.0.0-SNAPSHOT-zest.klib",
+          "size": 81398,
+          "sha512": "21c11f8cd4aaa3b9e4e24220bd7bd5b44c03aa89965f9bc3114f5c5e947ebe1de40977924ba02673be8ce79305dbe98ba51159cfad90bb06d55550e742aba174",
+          "sha256": "dd424a09409ba80dd51230c562ee1109995afa4578228ae2f231c96677be2459",
+          "sha1": "6175992568a141ee75d4359189aaa91d2f30c284",
+          "md5": "9146cb58c38815eeac7ab5167bd034d7"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cache-js-5.0.0-SNAPSHOT-zest.klib",
+          "url": "cache5-js-5.0.0-SNAPSHOT-zest.klib",
+          "size": 81398,
+          "sha512": "21c11f8cd4aaa3b9e4e24220bd7bd5b44c03aa89965f9bc3114f5c5e947ebe1de40977924ba02673be8ce79305dbe98ba51159cfad90bb06d55550e742aba174",
+          "sha256": "dd424a09409ba80dd51230c562ee1109995afa4578228ae2f231c96677be2459",
+          "sha1": "6175992568a141ee75d4359189aaa91d2f30c284",
+          "md5": "9146cb58c38815eeac7ab5167bd034d7"
+        }
+      ]
+    }
+  ]
+}

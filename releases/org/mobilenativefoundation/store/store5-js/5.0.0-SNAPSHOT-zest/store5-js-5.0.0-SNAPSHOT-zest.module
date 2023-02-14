@@ -1,0 +1,189 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../store5/5.0.0-SNAPSHOT-zest/store5-5.0.0-SNAPSHOT-zest.module",
+    "group": "org.mobilenativefoundation.store",
+    "module": "store5",
+    "version": "5.0.0-SNAPSHOT-zest",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.mobilenativefoundation.store",
+          "module": "multicast5",
+          "version": {
+            "requires": "5.0.0-SNAPSHOT-zest"
+          }
+        },
+        {
+          "group": "org.mobilenativefoundation.store",
+          "module": "cache5",
+          "version": {
+            "requires": "5.0.0-SNAPSHOT-zest"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "store-js-5.0.0-SNAPSHOT-zest.klib",
+          "url": "store5-js-5.0.0-SNAPSHOT-zest.klib",
+          "size": 147357,
+          "sha512": "8cb8f3a786bd97a499989571945ba10056292995e1e87fde007506e408ed1a0bdbf55e8cbcabc3810360b49331896c158e661701b12f7b4a06b8d53a6b95f7ed",
+          "sha256": "a043ce8df62fdbcbe2ecad907fce20c9372c89a83dac93335cc1569273c3ccc2",
+          "sha1": "9779e1992e2a2811f6b146e1574df84c7f9a532d",
+          "md5": "eaafdb6203b60db9973e0987c3c034fc"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.mobilenativefoundation.store",
+          "module": "multicast5",
+          "version": {
+            "requires": "5.0.0-SNAPSHOT-zest"
+          }
+        },
+        {
+          "group": "org.mobilenativefoundation.store",
+          "module": "cache5",
+          "version": {
+            "requires": "5.0.0-SNAPSHOT-zest"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "store-js-5.0.0-SNAPSHOT-zest.klib",
+          "url": "store5-js-5.0.0-SNAPSHOT-zest.klib",
+          "size": 147357,
+          "sha512": "8cb8f3a786bd97a499989571945ba10056292995e1e87fde007506e408ed1a0bdbf55e8cbcabc3810360b49331896c158e661701b12f7b4a06b8d53a6b95f7ed",
+          "sha256": "a043ce8df62fdbcbe2ecad907fce20c9372c89a83dac93335cc1569273c3ccc2",
+          "sha1": "9779e1992e2a2811f6b146e1574df84c7f9a532d",
+          "md5": "eaafdb6203b60db9973e0987c3c034fc"
+        }
+      ]
+    }
+  ]
+}

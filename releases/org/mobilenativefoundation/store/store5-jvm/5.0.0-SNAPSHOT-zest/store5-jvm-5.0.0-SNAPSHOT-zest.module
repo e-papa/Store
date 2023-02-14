@@ -1,0 +1,140 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../store5/5.0.0-SNAPSHOT-zest/store5-5.0.0-SNAPSHOT-zest.module",
+    "group": "org.mobilenativefoundation.store",
+    "module": "store5",
+    "version": "5.0.0-SNAPSHOT-zest",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "store-jvm-5.0.0-SNAPSHOT-zest.jar",
+          "url": "store5-jvm-5.0.0-SNAPSHOT-zest.jar",
+          "size": 318416,
+          "sha512": "3156d4becda40859ad1d50e1682e1d873e610782b4353b29034c87e69d3da095c3249b12fe81d15824725266496de4dc3f44f5948d54215b0ce74d86d8f814ab",
+          "sha256": "f7230cce7616a54fb965da8b490c197cc6fcfeb18782b3e2b253a08906c3e1a1",
+          "sha1": "fdb07fc21ad7c016a11537cfdd3b6223761256ff",
+          "md5": "6e0fe285d5f3e2316f3b211f5f2bb543"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.mobilenativefoundation.store",
+          "module": "multicast5",
+          "version": {
+            "requires": "5.0.0-SNAPSHOT-zest"
+          }
+        },
+        {
+          "group": "org.mobilenativefoundation.store",
+          "module": "cache5",
+          "version": {
+            "requires": "5.0.0-SNAPSHOT-zest"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "store-jvm-5.0.0-SNAPSHOT-zest.jar",
+          "url": "store5-jvm-5.0.0-SNAPSHOT-zest.jar",
+          "size": 318416,
+          "sha512": "3156d4becda40859ad1d50e1682e1d873e610782b4353b29034c87e69d3da095c3249b12fe81d15824725266496de4dc3f44f5948d54215b0ce74d86d8f814ab",
+          "sha256": "f7230cce7616a54fb965da8b490c197cc6fcfeb18782b3e2b253a08906c3e1a1",
+          "sha1": "fdb07fc21ad7c016a11537cfdd3b6223761256ff",
+          "md5": "6e0fe285d5f3e2316f3b211f5f2bb543"
+        }
+      ]
+    }
+  ]
+}

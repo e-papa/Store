@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../multicast5/5.0.0-SNAPSHOT-zest/multicast5-5.0.0-SNAPSHOT-zest.module",
+    "group": "org.mobilenativefoundation.store",
+    "module": "multicast5",
+    "version": "5.0.0-SNAPSHOT-zest",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multicast-jvm-5.0.0-SNAPSHOT-zest.jar",
+          "url": "multicast5-jvm-5.0.0-SNAPSHOT-zest.jar",
+          "size": 71766,
+          "sha512": "1fd38f35426f381f50e6e117d7c310e9017be65432113f0823ed5f511f8e0a1f0a74f0c924ca0fca10caf30b80ffe4a984a4a7b76d66eb3eb96deb838cdf6f40",
+          "sha256": "e4e58f3c79dc7ff4e3bf40c671aeff7427d6ddf04c6f5c48153242dc6cbd1ecb",
+          "sha1": "d26627cedc7ae3dd0e8836b0652622e144ebe85a",
+          "md5": "c74e592feeb6b5924a004fa2f4753bd0"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multicast-jvm-5.0.0-SNAPSHOT-zest.jar",
+          "url": "multicast5-jvm-5.0.0-SNAPSHOT-zest.jar",
+          "size": 71766,
+          "sha512": "1fd38f35426f381f50e6e117d7c310e9017be65432113f0823ed5f511f8e0a1f0a74f0c924ca0fca10caf30b80ffe4a984a4a7b76d66eb3eb96deb838cdf6f40",
+          "sha256": "e4e58f3c79dc7ff4e3bf40c671aeff7427d6ddf04c6f5c48153242dc6cbd1ecb",
+          "sha1": "d26627cedc7ae3dd0e8836b0652622e144ebe85a",
+          "md5": "c74e592feeb6b5924a004fa2f4753bd0"
+        }
+      ]
+    }
+  ]
+}

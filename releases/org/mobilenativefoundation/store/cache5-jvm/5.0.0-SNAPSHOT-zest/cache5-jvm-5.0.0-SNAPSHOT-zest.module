@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../cache5/5.0.0-SNAPSHOT-zest/cache5-5.0.0-SNAPSHOT-zest.module",
+    "group": "org.mobilenativefoundation.store",
+    "module": "cache5",
+    "version": "5.0.0-SNAPSHOT-zest",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cache-jvm-5.0.0-SNAPSHOT-zest.jar",
+          "url": "cache5-jvm-5.0.0-SNAPSHOT-zest.jar",
+          "size": 79446,
+          "sha512": "e68808fe5de8540a2f3b8f6d5f05d80f4689edb52293d42c385317a8456974b1111c8a4ccf5484fba58ab2be5078efbefcff8857748688beffadbd6c330a688e",
+          "sha256": "eb90d4958bad1779378425e5826b5bec480dcb8375aae7e5dd8e3ecd2039e851",
+          "sha1": "4f91e39316f875558cb6d2eb306cf6091abe9b7a",
+          "md5": "3b533afcdf265d523aa209cd50e1cfac"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cache-jvm-5.0.0-SNAPSHOT-zest.jar",
+          "url": "cache5-jvm-5.0.0-SNAPSHOT-zest.jar",
+          "size": 79446,
+          "sha512": "e68808fe5de8540a2f3b8f6d5f05d80f4689edb52293d42c385317a8456974b1111c8a4ccf5484fba58ab2be5078efbefcff8857748688beffadbd6c330a688e",
+          "sha256": "eb90d4958bad1779378425e5826b5bec480dcb8375aae7e5dd8e3ecd2039e851",
+          "sha1": "4f91e39316f875558cb6d2eb306cf6091abe9b7a",
+          "md5": "3b533afcdf265d523aa209cd50e1cfac"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.mobilenativefoundation.store",
+    "module": "store5",
+    "version": "5.0.0-SNAPSHOT-zest",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "store-metadata-5.0.0-SNAPSHOT-zest.jar",
+          "url": "store5-5.0.0-SNAPSHOT-zest.jar",
+          "size": 21781,
+          "sha512": "cb8db739ea6a2ff3593b41c810003a97b67bb4941963827af6e5223ac29a3fdb133b0baf10c2cfa06d07cb7c15eb0fb274ef036bdb37536982b34dcac1a92369",
+          "sha256": "fc448bf65bf4f5e319b431d7f5e70b3e6492dc8d430cb07a5fb6f41b8e9b85da",
+          "sha1": "eadc7637dd0695e5ac1a217b2afbc777bbc4d4da",
+          "md5": "afdbc1b5050f5455cdedad2a4d67f6ee"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../store5-iosarm64/5.0.0-SNAPSHOT-zest/store5-iosarm64-5.0.0-SNAPSHOT-zest.module",
+        "group": "org.mobilenativefoundation.store",
+        "module": "store5-iosarm64",
+        "version": "5.0.0-SNAPSHOT-zest"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../store5-iosarm64/5.0.0-SNAPSHOT-zest/store5-iosarm64-5.0.0-SNAPSHOT-zest.module",
+        "group": "org.mobilenativefoundation.store",
+        "module": "store5-iosarm64",
+        "version": "5.0.0-SNAPSHOT-zest"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../store5-iossimulatorarm64/5.0.0-SNAPSHOT-zest/store5-iossimulatorarm64-5.0.0-SNAPSHOT-zest.module",
+        "group": "org.mobilenativefoundation.store",
+        "module": "store5-iossimulatorarm64",
+        "version": "5.0.0-SNAPSHOT-zest"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../store5-iossimulatorarm64/5.0.0-SNAPSHOT-zest/store5-iossimulatorarm64-5.0.0-SNAPSHOT-zest.module",
+        "group": "org.mobilenativefoundation.store",
+        "module": "store5-iossimulatorarm64",
+        "version": "5.0.0-SNAPSHOT-zest"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../store5-iosx64/5.0.0-SNAPSHOT-zest/store5-iosx64-5.0.0-SNAPSHOT-zest.module",
+        "group": "org.mobilenativefoundation.store",
+        "module": "store5-iosx64",
+        "version": "5.0.0-SNAPSHOT-zest"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../store5-iosx64/5.0.0-SNAPSHOT-zest/store5-iosx64-5.0.0-SNAPSHOT-zest.module",
+        "group": "org.mobilenativefoundation.store",
+        "module": "store5-iosx64",
+        "version": "5.0.0-SNAPSHOT-zest"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../store5-js/5.0.0-SNAPSHOT-zest/store5-js-5.0.0-SNAPSHOT-zest.module",
+        "group": "org.mobilenativefoundation.store",
+        "module": "store5-js",
+        "version": "5.0.0-SNAPSHOT-zest"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../store5-js/5.0.0-SNAPSHOT-zest/store5-js-5.0.0-SNAPSHOT-zest.module",
+        "group": "org.mobilenativefoundation.store",
+        "module": "store5-js",
+        "version": "5.0.0-SNAPSHOT-zest"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../store5-jvm/5.0.0-SNAPSHOT-zest/store5-jvm-5.0.0-SNAPSHOT-zest.module",
+        "group": "org.mobilenativefoundation.store",
+        "module": "store5-jvm",
+        "version": "5.0.0-SNAPSHOT-zest"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../store5-jvm/5.0.0-SNAPSHOT-zest/store5-jvm-5.0.0-SNAPSHOT-zest.module",
+        "group": "org.mobilenativefoundation.store",
+        "module": "store5-jvm",
+        "version": "5.0.0-SNAPSHOT-zest"
+      }
+    }
+  ]
+}

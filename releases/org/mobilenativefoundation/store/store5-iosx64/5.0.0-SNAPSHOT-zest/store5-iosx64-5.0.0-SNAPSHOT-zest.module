@@ -1,0 +1,177 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../store5/5.0.0-SNAPSHOT-zest/store5-5.0.0-SNAPSHOT-zest.module",
+    "group": "org.mobilenativefoundation.store",
+    "module": "store5",
+    "version": "5.0.0-SNAPSHOT-zest",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.mobilenativefoundation.store",
+          "module": "multicast5",
+          "version": {
+            "requires": "5.0.0-SNAPSHOT-zest"
+          }
+        },
+        {
+          "group": "org.mobilenativefoundation.store",
+          "module": "cache5",
+          "version": {
+            "requires": "5.0.0-SNAPSHOT-zest"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "store.klib",
+          "url": "store5-iosx64-5.0.0-SNAPSHOT-zest.klib",
+          "size": 133419,
+          "sha512": "3a334a48cb98d9983b20f2ec289c1f39da78a673b0f6c0c33275736ecf11f849ee82004413c8570e4fc21d65045fbbb2b5ba74e1a1ec5e07f4e1ca79bc6318be",
+          "sha256": "a012efe42d51a0343ec5eefde9f6fe4b75b91177bcabc3c115d0c0d04e254e9d",
+          "sha1": "488dff851ae0d0cd09ae82161e6716ca0c95885c",
+          "md5": "c677927495efb186bb6b1938d19088b9"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.18.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.mobilenativefoundation.store",
+          "module": "multicast5",
+          "version": {
+            "requires": "5.0.0-SNAPSHOT-zest"
+          }
+        },
+        {
+          "group": "org.mobilenativefoundation.store",
+          "module": "cache5",
+          "version": {
+            "requires": "5.0.0-SNAPSHOT-zest"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "store-iosx64-5.0.0-SNAPSHOT-zest-metadata.jar",
+          "url": "store5-iosx64-5.0.0-SNAPSHOT-zest-metadata.jar",
+          "size": 261,
+          "sha512": "abb65bfc9d36a33083f0a361af2efce70a0a9aa9ed58ce238e6f95b0f34059706e70cc6b30914db7c0c36428c7f73dc3c79a7f2b1cb97afefed42952b10b6a2d",
+          "sha256": "3e795c58f5b584edb191cb0072a49e8a186a7228ecdbcbc19bbe9c72c7562687",
+          "sha1": "b2634372fb26df908dddf01d587285af85a6a430",
+          "md5": "fd7dd32c1aeaaa204a59518c73d5eb1c"
+        }
+      ]
+    }
+  ]
+}
